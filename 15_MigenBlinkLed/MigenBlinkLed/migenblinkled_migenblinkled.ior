@@ -1,0 +1,59 @@
+Loading design for application iotiming from file migenblinkled_migenblinkled.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 5
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file migenblinkled_migenblinkled.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file migenblinkled_migenblinkled.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: top
+// Package: CSBGA132
+// ncd File: migenblinkled_migenblinkled.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Sat Jul 31 10:37:47 2021
+// M: Minimum Performance Grade
+// iotiming MigenBlinkLed_MigenBlinkLed.ncd MigenBlinkLed_MigenBlinkLed.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port    Clock   Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+sys_rst sys_clk R     3.032      4       0.814     4
+
+
+// Clock to Output Delay
+
+Port   Clock   Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+led[0] sys_clk R     9.682         4        3.026          M
+led[1] sys_clk R     9.985         4        3.106          M
+led[2] sys_clk R     9.577         4        3.001          M
+led[3] sys_clk R     9.577         4        3.001          M
+led[4] sys_clk R     9.463         4        2.979          M
+led[5] sys_clk R     9.890         4        3.084          M
+led[6] sys_clk R     9.463         4        2.979          M
+led[7] sys_clk R     9.860         4        3.090          M
+WARNING: you must also run trce with hold speed: 4
