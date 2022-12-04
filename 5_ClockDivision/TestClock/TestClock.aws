@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+TestClock=TestClock.adf
+[Settings]
+Active=TestClock
+[Expand]
+testclock=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
