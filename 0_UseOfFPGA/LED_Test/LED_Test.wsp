@@ -1,0 +1,14 @@
+[COMPILESTATUS|.\CodeSrc.v]
+FileTimeLow=30854209
+Status=Compiled
+
+[COMPILESTATUS|.\LedTest.v]
+FileTimeLow=30854212
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\LED_Test.adf|]
+Path=
+

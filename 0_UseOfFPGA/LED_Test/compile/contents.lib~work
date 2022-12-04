@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../CodeSrc.v" 19 LED_shining
+~A 1 "./../CodeSrc.v" 19 LED_shining
+~M 3 "./../LedTest.v" 20 LED_test
+~A 1 "./../LedTest.v" 20 LED_test
