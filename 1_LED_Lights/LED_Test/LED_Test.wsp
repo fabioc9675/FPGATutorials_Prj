@@ -1,0 +1,8 @@
+[COMPILESTATUS|.\LEDLight.v]
+FileTimeLow=30854218
+Status=Compiled
+[COMPILESTATUS|.\LED_Test.v]
+FileTimeLow=30854219
+Status=Compiled
+[Gui config]
+RunFor=100 ns
