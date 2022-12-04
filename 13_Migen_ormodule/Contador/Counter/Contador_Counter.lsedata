@@ -1,0 +1,83 @@
+<top name = "top"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "top">
+
+    <!--
+        Top Level Pins: 3
+    -->
+
+    <pins>
+        <pitem  name = "a"  direction = "in"  />
+        <pitem  name = "b"  direction = "in"  />
+        <pitem  name = "x"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 3
+    -->
+
+    <instance  name = "a_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "a_N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "b_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "b"  />
+        <nitem  name = "b_N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "x_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a_N_2"  />
+        <nitem  name = "b_N_4"  />
+        <nitem  name = "x"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "top": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

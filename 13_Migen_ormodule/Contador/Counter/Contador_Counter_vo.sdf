@@ -1,0 +1,69 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "top")
+  (DATE "Fri Jul 30 23:49:53 2021")
+  (VENDOR "Lattice")
+  (PROGRAM "ldbanno")
+  (VERSION "Diamond (64-bit) 3.11.0.396.4")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "SLICE_0")
+    (INSTANCE SLICE_0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH C0 F0 (367:431:495)(367:431:495))
+        (IOPATH B0 F0 (367:431:495)(367:431:495))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "x")
+    (INSTANCE x_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO x (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "a")
+    (INSTANCE a_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH a PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge a) (3330:3330:3330))
+      (WIDTH (negedge a) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "b")
+    (INSTANCE b_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH b PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge b) (3330:3330:3330))
+      (WIDTH (negedge b) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "top")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT a_I/PADDI SLICE_0/C0 (1072:1210:1349)(1072:1210:1349))
+        (INTERCONNECT b_I/PADDI SLICE_0/B0 (1569:1755:1941)(1569:1755:1941))
+        (INTERCONNECT SLICE_0/F0 x_I/PADDO (915:1037:1160)(915:1037:1160))
+      )
+    )
+  )
+)

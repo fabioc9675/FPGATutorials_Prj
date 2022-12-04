@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Contador" device="LCMXO2-4000HC-4MG132C" default_implementation="Counter">
+    <Options/>
+    <Implementation title="Counter" dir="Counter" description="Counter" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="Contador.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="Contador.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Contador1.sty"/>
+</BaliProject>
