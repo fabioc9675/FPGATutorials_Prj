@@ -1,0 +1,52 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+LED_Test=.\LED_Test\LED_Test.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+LED_Test=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\LEDLight.v=-1
+/..\LED_Test.v=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+[Files.Data]
+.\LEDLight.v=Verilog Source Code
+.\LED_Test.v=Verilog Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

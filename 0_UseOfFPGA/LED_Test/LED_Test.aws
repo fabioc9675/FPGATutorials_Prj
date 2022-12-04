@@ -1,0 +1,15 @@
+[Version]
+Version=10.5
+[Designs]
+LED_Test=LED_Test.adf
+[Settings]
+Active=LED_Test
+D:\ASUS\Documents\Google Drive - udea.edu.co\Fabian_Documentos\Proyectos\TutorialesFPGA\UseOfFPGA\LED_Test\LED_Test.aws
+[Expand]
+led_test=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

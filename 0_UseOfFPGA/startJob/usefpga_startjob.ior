@@ -1,0 +1,52 @@
+Loading design for application iotiming from file usefpga_startjob.ncd.
+Design name: LED_shining
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 5
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file usefpga_startjob.ncd.
+Design name: LED_shining
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file usefpga_startjob.ncd.
+Design name: LED_shining
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: LED_shining
+// Package: CSBGA132
+// ncd File: usefpga_startjob.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Sun Dec 06 22:10:11 2020
+// M: Minimum Performance Grade
+// iotiming UseFPGA_startJob.ncd UseFPGA_startJob.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock  Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+led1  clk_in R    10.579         4        3.278          M
+led2  clk_in R    12.013         4        3.575          M

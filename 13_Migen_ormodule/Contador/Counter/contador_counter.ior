@@ -1,0 +1,51 @@
+Loading design for application iotiming from file contador_counter.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 5
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file contador_counter.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file contador_counter.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: top
+// Package: CSBGA132
+// ncd File: contador_counter.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Fri Jul 30 23:49:52 2021
+// M: Minimum Performance Grade
+// iotiming Contador_Counter.ncd Contador_Counter.prf -gui -msgset C:/Users/ASUS/Desktop/Contador/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)

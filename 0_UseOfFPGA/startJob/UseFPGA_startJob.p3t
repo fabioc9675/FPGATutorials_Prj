@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "UseFPGA_startJob.log"
+-o "UseFPGA_startJob.csv"
+-pr "UseFPGA_startJob.prf"

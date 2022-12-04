@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3087690000fs"></ZoomStartTime>
+      <ZoomEndTime time="3723690001fs"></ZoomEndTime>
+      <Cursor1Time time="3504190000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="208"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="logic" fp_name="/top/stm_reset">
+      <obj_property name="ElementShortName">stm_reset</obj_property>
+      <obj_property name="ObjectShortName">stm_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/stm_clk">
+      <obj_property name="ElementShortName">stm_clk</obj_property>
+      <obj_property name="ObjectShortName">stm_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/stm_cs_n">
+      <obj_property name="ElementShortName">stm_cs_n</obj_property>
+      <obj_property name="ObjectShortName">stm_cs_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/stm_mosi">
+      <obj_property name="ElementShortName">stm_mosi</obj_property>
+      <obj_property name="ObjectShortName">stm_mosi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/stm_miso">
+      <obj_property name="ElementShortName">stm_miso</obj_property>
+      <obj_property name="ObjectShortName">stm_miso</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/stm_irq">
+      <obj_property name="ElementShortName">stm_irq</obj_property>
+      <obj_property name="ObjectShortName">stm_irq</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/clk100">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_start">
+      <obj_property name="ElementShortName">spislave_start</obj_property>
+      <obj_property name="ObjectShortName">spislave_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_length">
+      <obj_property name="ElementShortName">spislave_length[12:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_length[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_done">
+      <obj_property name="ElementShortName">spislave_done</obj_property>
+      <obj_property name="ObjectShortName">spislave_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_irq">
+      <obj_property name="ElementShortName">spislave_irq</obj_property>
+      <obj_property name="ObjectShortName">spislave_irq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_mosi0">
+      <obj_property name="ElementShortName">spislave_mosi0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_mosi0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_miso0">
+      <obj_property name="ElementShortName">spislave_miso0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_miso0[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_clk">
+      <obj_property name="ElementShortName">spislave_clk</obj_property>
+      <obj_property name="ObjectShortName">spislave_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_cs">
+      <obj_property name="ElementShortName">spislave_cs</obj_property>
+      <obj_property name="ObjectShortName">spislave_cs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_mosi1">
+      <obj_property name="ElementShortName">spislave_mosi1</obj_property>
+      <obj_property name="ObjectShortName">spislave_mosi1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_miso1">
+      <obj_property name="ElementShortName">spislave_miso1</obj_property>
+      <obj_property name="ObjectShortName">spislave_miso1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_clk_d">
+      <obj_property name="ElementShortName">spislave_clk_d</obj_property>
+      <obj_property name="ObjectShortName">spislave_clk_d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_clk_rise">
+      <obj_property name="ElementShortName">spislave_clk_rise</obj_property>
+      <obj_property name="ObjectShortName">spislave_clk_rise</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_clk_fall">
+      <obj_property name="ElementShortName">spislave_clk_fall</obj_property>
+      <obj_property name="ObjectShortName">spislave_clk_fall</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_miso_data">
+      <obj_property name="ElementShortName">spislave_miso_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_miso_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_counter">
+      <obj_property name="ElementShortName">spislave_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave">
+      <obj_property name="ElementShortName">spislave</obj_property>
+      <obj_property name="ObjectShortName">spislave</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/next_state">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/spislave_length_next_value">
+      <obj_property name="ElementShortName">spislave_length_next_value[12:0]</obj_property>
+      <obj_property name="ObjectShortName">spislave_length_next_value[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/spislave_length_next_value_ce">
+      <obj_property name="ElementShortName">spislave_length_next_value_ce</obj_property>
+      <obj_property name="ObjectShortName">spislave_length_next_value_ce</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/sys_clk">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/sys_rst">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/por_clk">
+      <obj_property name="ElementShortName">por_clk</obj_property>
+      <obj_property name="ObjectShortName">por_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/int_rst">
+      <obj_property name="ElementShortName">int_rst</obj_property>
+      <obj_property name="ObjectShortName">int_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl0_regs0">
+      <obj_property name="ElementShortName">xilinxmultiregimpl0_regs0</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl0_regs0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl0_regs1">
+      <obj_property name="ElementShortName">xilinxmultiregimpl0_regs1</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl0_regs1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl1_regs0">
+      <obj_property name="ElementShortName">xilinxmultiregimpl1_regs0</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl1_regs0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl1_regs1">
+      <obj_property name="ElementShortName">xilinxmultiregimpl1_regs1</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl1_regs1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl1">
+      <obj_property name="ElementShortName">xilinxmultiregimpl1</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl2_regs0">
+      <obj_property name="ElementShortName">xilinxmultiregimpl2_regs0</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl2_regs0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/xilinxmultiregimpl2_regs1">
+      <obj_property name="ElementShortName">xilinxmultiregimpl2_regs1</obj_property>
+      <obj_property name="ObjectShortName">xilinxmultiregimpl2_regs1</obj_property>
+   </wvobject>
+</wave_config>

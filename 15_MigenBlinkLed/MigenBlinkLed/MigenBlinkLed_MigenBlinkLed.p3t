@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "MigenBlinkLed_MigenBlinkLed.log"
+-o "MigenBlinkLed_MigenBlinkLed.csv"
+-pr "MigenBlinkLed_MigenBlinkLed.prf"

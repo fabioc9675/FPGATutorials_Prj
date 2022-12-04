@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="MigenBlinkLed" device="LCMXO2-4000HC-4MG132C" default_implementation="MigenBlinkLed">
+    <Options/>
+    <Implementation title="MigenBlinkLed" dir="MigenBlinkLed" description="MigenBlinkLed" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="my_design.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="../Migen_Tutorials/Basic/sfsdf/sfsdf.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="MigenBlinkLed.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="MigenBlinkLed1.sty"/>
+</BaliProject>
